@@ -6,8 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node tests/behavior.js && node tests/fixes_v5.test.js && node tests/ui.test.js && node tests/ui_v5.test.js && node tests/variant.test.js",
-    "build": "node tools/build_variants.js"
+    "test": "node tests/behavior.js && node tests/fixes_v5.test.js && node tests/ui.test.js && node tests/ui_v5.test.js && node tests/variant.test.js"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
