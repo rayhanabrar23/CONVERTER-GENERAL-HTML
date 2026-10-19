@@ -379,7 +379,7 @@
     const t = STEPS.find((x) => x[0] === S.tab); const v = t[2](); $('main').replaceChildren(S.tab === 'upload' ? v : h('div', { class: 'view' }, v));
     document.querySelectorAll('.tw').forEach((e, i) => { if (keep[i]) e.scrollTop = keep[i]; });
   }
-  $('who').textContent = '👤 Mode lokal (tanpa login)';
+  $('who').style.display = 'none';
   document.title = CFG.title + ' — Daily RP & LR'; document.querySelector('.hero h1').textContent = CFG.title;
   if (CFG.chip) $('who').before(h('span', { class: 'chip' }, CFG.chip));
   try { $('today').textContent = '📅 ' + new Date().toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) {}
