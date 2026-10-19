@@ -1,0 +1,5 @@
+  {
+    "name": "converter-general-html",
+    "compatibility_date": "2026-10-19",
+    "assets": { "directory": "./public" }
+  }
